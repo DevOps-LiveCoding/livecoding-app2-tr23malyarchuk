@@ -34,6 +34,6 @@ jobs:
     - name: Deploy
       uses: dokku/github-action@master
       with:
-        git_remote_url: 'ssh://dokku@livecoding.dns-dynamic.net:22/mplesha-app'
+        git_remote_url: 'ssh://dokku@livecoding.dns-dynamic.net:22/tr23malyarchuk-app'
         branch: 'main'
         ssh_private_key: ${{ secrets.DOKKU_KEY }}
